@@ -1,4 +1,21 @@
 # Indicamos los archivos a ignorar
+# prueba.txt
+# /database/consultas.txt
+# /database/insertdb.sql
+
+# Ignorar en todo el proyecto los archivos .txt
+# *.txt
+
+# Ignorar contenido del directorio "/database"
+# database/
+
+# Ignorar cualquier directorio con el nombre "/database"
+# **/database/
+
+# Ignorar todos los archivos ".txt" excepto prueba.txt
+# *.txt
+# !prueba.txt
+
+# Ignorar directorio tmp y archivo prueba.txt
+**/tmp/
 prueba.txt
-/database/consultas.txt
-/database/insertdb.sql
