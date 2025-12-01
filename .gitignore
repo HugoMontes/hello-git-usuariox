@@ -1,0 +1,4 @@
+# Indicamos los archivos a ignorar
+prueba.txt
+/database/consultas.txt
+/database/insertdb.sql
